@@ -116,7 +116,7 @@ span.tc-apply + div.tc-desc:active {
 /* Mobile-specific styles */
 @media only screen and (max-width: 42424242px) {
     .ratingStars {
-        margin-left: -110px; /* Reset the left margin for mobile devices */
+        margin-left: 120px; /* Reset the left margin for mobile devices */
         justify-content: right; /* Center the stars horizontally on mobile devices */
     }
 
