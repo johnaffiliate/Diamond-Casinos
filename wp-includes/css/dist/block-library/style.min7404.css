@@ -125,15 +125,17 @@ span.tc-apply + div.tc-desc:active {
 }
     
 @media only screen and (max-width: 890px) {
-    .ratingStars {
-        margin-left: 120px; /* Reset the left margin for mobile devices */
-        justify-content: right; /* Center the stars horizontally on mobile devices */
+    .ratingTotal {
+        text-align: center; /* Center the rating text on mobile */
     }
 
-    .ratingStars-item {
-        width: 20px; /* Increase the size of stars on mobile devices */
-        height: 20px; /* Increase the size of stars on mobile devices */
+    .ratingNumber {
+        margin-left: 50px; /* Adjust this value to control the left margin of the rating number */
+    }
+
+    .ratingStars {
+        justify-content: right; /* Center the stars on mobile */
+        margin-right: 50px; /* Remove the left margin on mobile */
+        margin-left: -20px;
     }
 }
-
-
