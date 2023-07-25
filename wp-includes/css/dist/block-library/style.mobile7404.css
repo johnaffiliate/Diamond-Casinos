@@ -136,7 +136,7 @@ span.tc-apply + div.tc-desc:active {
     .ratingStars {
         justify-content: right; /* Center the stars on mobile */
         margin-right: 50px; /* Remove the left margin on mobile */
-        margin-left: 15px;
+        margin-left: -20px;
     }
 }
 
