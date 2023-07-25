@@ -110,7 +110,7 @@ span.tc-apply + div.tc-desc:active {
     display: flex;
     align-items: center;
     gap: 3px;
-    margin-left: -30px; /* Adjust this value to control the left margin */
+    margin-left: -92px; /* Adjust this value to control the left margin */
 }
 
 .ratingStars-item {
